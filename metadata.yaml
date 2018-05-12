@@ -1,0 +1,35 @@
+_repo: Trovas-Ined-tas-de-Bandarra_21545
+_version: 0.1.0
+alternative_title: Trovas Inéditas de Bandarra
+covers:
+- cover_type: generated
+  image_path: cover.png
+creator:
+  author:
+    agent_name: Bandarra, Gonçalo Anes
+    aliases:
+    - Bandarra, Gonçalo Annes
+    - Bandarra, Goncalo Anes
+    gutenberg_agent_id: '9403'
+    url: http://www.gutenberg.org/2009/agents/9403
+    wikipedia: http://pt.wikipedia.org/wiki/Gon%C3%A7alo_Anes
+description: Quarta Parte
+gutenberg_bookshelf: PT Poesia
+gutenberg_issued: '2007-05-21'
+gutenberg_type: Text
+identifiers:
+  gutenberg: '21545'
+language: pt
+language_note: This ebook uses 19th century spelling
+production_note: "Produced by Pedro Saborano. Para comentários à transcrição\r\nvisite\
+  \ http://pt-scriba.blogspot.com (This book was\r\nproduced from scanned images of\
+  \ public domain material\r\nfrom the Google Print project.)"
+publication_note: "Londres:\r\n1815"
+publisher: Project Gutenberg
+rights: Public domain in the USA.
+rights_url: http://creativecommons.org/about/pdm
+subjects:
+- !lcsh 'Portuguese poetry -- Classical period, 1500-1700'
+- !lcc 'PQ'
+title: Trovas Inedìtas de Bandarra
+url: http://www.gutenberg.org/ebooks/21545
