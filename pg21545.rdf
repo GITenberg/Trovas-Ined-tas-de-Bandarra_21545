@@ -1,190 +1,212 @@
 <?xml version="1.0" encoding="utf-8"?>
 <rdf:RDF xml:base="http://www.gutenberg.org/"
-  xmlns:cc="http://web.resource.org/cc/"
   xmlns:dcterms="http://purl.org/dc/terms/"
-  xmlns:dcam="http://purl.org/dc/dcam/"
-  xmlns:pgterms="http://www.gutenberg.org/2009/pgterms/"
   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+  xmlns:dcam="http://purl.org/dc/dcam/"
+  xmlns:cc="http://web.resource.org/cc/"
+  xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+  xmlns:pgterms="http://www.gutenberg.org/2009/pgterms/"
 >
   <pgterms:ebook rdf:about="ebooks/21545">
     <dcterms:subject>
-      <rdf:Description rdf:nodeID="Nc344464ebded41bfaf4d04bea1d7ce10">
-        <dcam:memberOf rdf:resource="http://purl.org/dc/terms/LCC"/>
-        <rdf:value>PQ</rdf:value>
-      </rdf:Description>
-    </dcterms:subject>
-    <pgterms:marc546>This ebook uses 19th century spelling</pgterms:marc546>
-    <dcterms:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2007-05-21</dcterms:issued>
-    <dcterms:subject>
-      <rdf:Description rdf:nodeID="N1d85818c8ead41cd832f3c63d001f3be">
-        <dcam:memberOf rdf:resource="http://purl.org/dc/terms/LCSH"/>
+      <rdf:Description rdf:nodeID="N3a8106aaf4e54cb0a56230383a9f4d0d">
         <rdf:value>Portuguese poetry -- Classical period, 1500-1700</rdf:value>
+        <dcam:memberOf rdf:resource="http://purl.org/dc/terms/LCSH"/>
       </rdf:Description>
     </dcterms:subject>
-    <dcterms:rights>Public domain in the USA.</dcterms:rights>
     <dcterms:hasFormat>
-      <pgterms:file rdf:about="http://www.gutenberg.org/ebooks/21545.epub.noimages">
+      <pgterms:file rdf:about="http://www.gutenberg.org/files/21545/21545-8.txt">
+        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2007-05-21T09:40:26</dcterms:modified>
         <dcterms:isFormatOf rdf:resource="ebooks/21545"/>
         <dcterms:format>
-          <rdf:Description rdf:nodeID="N8f07f0dd67ea49c693484c488410746e">
-            <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
-            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">application/epub+zip</rdf:value>
-          </rdf:Description>
-        </dcterms:format>
-        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">46711</dcterms:extent>
-        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2010-02-16T13:49:22.503929</dcterms:modified>
-      </pgterms:file>
-    </dcterms:hasFormat>
-    <dcterms:alternative>Trovas Inéditas de Bandarra</dcterms:alternative>
-    <dcterms:language>
-      <rdf:Description rdf:nodeID="N4566d3fe775844018d7887f4f1224b25">
-        <rdf:value rdf:datatype="http://purl.org/dc/terms/RFC4646">pt</rdf:value>
-      </rdf:Description>
-    </dcterms:language>
-    <dcterms:hasFormat>
-      <pgterms:file rdf:about="http://www.gutenberg.org/ebooks/21545.plucker">
-        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2010-02-19T02:56:56.228000</dcterms:modified>
-        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">12291</dcterms:extent>
-        <dcterms:format>
-          <rdf:Description rdf:nodeID="Nf058e8ea13c444e0b0a5747c3ac6af64">
-            <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
-            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">application/prs.plucker</rdf:value>
-          </rdf:Description>
-        </dcterms:format>
-        <dcterms:isFormatOf rdf:resource="ebooks/21545"/>
-      </pgterms:file>
-    </dcterms:hasFormat>
-    <pgterms:marc260>Londres:&#13;
-1815</pgterms:marc260>
-    <dcterms:license rdf:resource="license"/>
-    <dcterms:hasFormat>
-      <pgterms:file rdf:about="http://www.gutenberg.org/files/21545/21545-8.zip">
-        <dcterms:isFormatOf rdf:resource="ebooks/21545"/>
-        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">18285</dcterms:extent>
-        <dcterms:format>
-          <rdf:Description rdf:nodeID="Nae5aca1ab68c45b9ba9d51e5a101daa6">
+          <rdf:Description rdf:nodeID="N7f3fb8ff5b59483fb97dffff4b6cb709">
             <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
             <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">text/plain; charset=iso-8859-1</rdf:value>
           </rdf:Description>
         </dcterms:format>
-        <dcterms:format>
-          <rdf:Description rdf:nodeID="N5113d660251541468113950a5a4e10a1">
-            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">application/zip</rdf:value>
-            <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
-          </rdf:Description>
-        </dcterms:format>
-        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2007-05-21T09:40:30</dcterms:modified>
+        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">45331</dcterms:extent>
       </pgterms:file>
     </dcterms:hasFormat>
-    <dcterms:title>Trovas Inedìtas de Bandarra</dcterms:title>
     <dcterms:hasFormat>
-      <pgterms:file rdf:about="http://www.gutenberg.org/ebooks/21545.kindle.noimages">
+      <pgterms:file rdf:about="http://www.gutenberg.org/ebooks/21545.rdf">
+        <dcterms:isFormatOf rdf:resource="ebooks/21545"/>
+        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2018-09-13T05:16:31.904860</dcterms:modified>
         <dcterms:format>
-          <rdf:Description rdf:nodeID="N0af2bfe7b3354902a0dd56ed37102ee2">
-            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">application/x-mobipocket-ebook</rdf:value>
+          <rdf:Description rdf:nodeID="N27c73a6ab16649f699602296865a078f">
             <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
+            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">application/rdf+xml</rdf:value>
           </rdf:Description>
         </dcterms:format>
-        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2010-02-16T13:49:23.076341</dcterms:modified>
-        <dcterms:isFormatOf rdf:resource="ebooks/21545"/>
-        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">54920</dcterms:extent>
+        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">11941</dcterms:extent>
       </pgterms:file>
     </dcterms:hasFormat>
     <pgterms:marc508>Produced by Pedro Saborano. Para comentários à transcrição&#13;
 visite http://pt-scriba.blogspot.com (This book was&#13;
 produced from scanned images of public domain material&#13;
 from the Google Print project.)</pgterms:marc508>
-    <dcterms:publisher>Project Gutenberg</dcterms:publisher>
+    <dcterms:hasFormat>
+      <pgterms:file rdf:about="http://www.gutenberg.org/ebooks/21545.epub.noimages">
+        <dcterms:isFormatOf rdf:resource="ebooks/21545"/>
+        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">21372</dcterms:extent>
+        <dcterms:format>
+          <rdf:Description rdf:nodeID="N29ed5eea6fb249c1bd615ac287c8e760">
+            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">application/epub+zip</rdf:value>
+            <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
+          </rdf:Description>
+        </dcterms:format>
+        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2018-09-11T01:40:09.825119</dcterms:modified>
+      </pgterms:file>
+    </dcterms:hasFormat>
+    <pgterms:marc546>This ebook uses 19th century spelling</pgterms:marc546>
+    <dcterms:title>Trovas Inedìtas de Bandarra</dcterms:title>
+    <dcterms:hasFormat>
+      <pgterms:file rdf:about="http://www.gutenberg.org/ebooks/21545.kindle.noimages">
+        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">101768</dcterms:extent>
+        <dcterms:format>
+          <rdf:Description rdf:nodeID="Na00c58600c8d42a1a0a74e91d798126d">
+            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">application/x-mobipocket-ebook</rdf:value>
+            <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
+          </rdf:Description>
+        </dcterms:format>
+        <dcterms:isFormatOf rdf:resource="ebooks/21545"/>
+        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2018-09-11T01:40:10.190108</dcterms:modified>
+      </pgterms:file>
+    </dcterms:hasFormat>
+    <dcterms:rights>Public domain in the USA.</dcterms:rights>
     <dcterms:type>
-      <rdf:Description rdf:nodeID="N197349de255e416083802bd4ba871f2f">
+      <rdf:Description rdf:nodeID="N0b9d342ca20f473c8dd37dae51b5f022">
         <dcam:memberOf rdf:resource="http://purl.org/dc/terms/DCMIType"/>
         <rdf:value>Text</rdf:value>
       </rdf:Description>
     </dcterms:type>
-    <pgterms:downloads rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">12</pgterms:downloads>
-    <dcterms:hasFormat>
-      <pgterms:file rdf:about="http://www.gutenberg.org/ebooks/21545.txt.utf-8">
-        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">45905</dcterms:extent>
-        <dcterms:isFormatOf rdf:resource="ebooks/21545"/>
-        <dcterms:format>
-          <rdf:Description rdf:nodeID="Nbc491db9e2fd42bfa58d2f0f0ea11326">
-            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">text/plain; charset=utf-8</rdf:value>
-            <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
-          </rdf:Description>
-        </dcterms:format>
-        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2010-02-16T13:49:22.161276</dcterms:modified>
-      </pgterms:file>
-    </dcterms:hasFormat>
+    <dcterms:language>
+      <rdf:Description rdf:nodeID="Nedb1be18987e49b38a2aff204fa29ad1">
+        <rdf:value rdf:datatype="http://purl.org/dc/terms/RFC4646">pt</rdf:value>
+      </rdf:Description>
+    </dcterms:language>
+    <dcterms:alternative>Trovas Inéditas de Bandarra</dcterms:alternative>
     <dcterms:hasFormat>
       <pgterms:file rdf:about="http://www.gutenberg.org/files/21545/21545-h.zip">
+        <dcterms:isFormatOf rdf:resource="ebooks/21545"/>
         <dcterms:format>
-          <rdf:Description rdf:nodeID="N79d3e4269cfe44de8090943a0acc658a">
+          <rdf:Description rdf:nodeID="N3b6f63e9b8464384bd55925a99e23d9f">
             <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
-            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">text/html; charset=iso-8859-1</rdf:value>
+            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">application/zip</rdf:value>
           </rdf:Description>
         </dcterms:format>
         <dcterms:format>
-          <rdf:Description rdf:nodeID="N7fba996ddf39408fafe8c8b609b66160">
-            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">application/zip</rdf:value>
+          <rdf:Description rdf:nodeID="Ned300a419e6b48e2af57f9909a896dfe">
+            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">text/html; charset=iso-8859-1</rdf:value>
             <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
           </rdf:Description>
         </dcterms:format>
         <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">18813</dcterms:extent>
         <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2007-05-21T09:40:30</dcterms:modified>
-        <dcterms:isFormatOf rdf:resource="ebooks/21545"/>
       </pgterms:file>
     </dcterms:hasFormat>
+    <dcterms:license rdf:resource="license"/>
     <dcterms:creator>
       <pgterms:agent rdf:about="2009/agents/9403">
-        <pgterms:alias>Bandarra, Gonçalo Annes</pgterms:alias>
-        <pgterms:webpage rdf:resource="http://pt.wikipedia.org/wiki/Gon%C3%A7alo_Anes"/>
         <pgterms:name>Bandarra, Gonçalo Anes</pgterms:name>
+        <pgterms:alias>Bandarra, Gonçalo Annes</pgterms:alias>
         <pgterms:alias>Bandarra, Goncalo Anes</pgterms:alias>
+        <pgterms:webpage rdf:resource="http://pt.wikipedia.org/wiki/Gon%C3%A7alo_Anes"/>
       </pgterms:agent>
     </dcterms:creator>
+    <dcterms:description>Quarta Parte</dcterms:description>
+    <dcterms:hasFormat>
+      <pgterms:file rdf:about="http://www.gutenberg.org/files/21545/21545-8.zip">
+        <dcterms:isFormatOf rdf:resource="ebooks/21545"/>
+        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">18285</dcterms:extent>
+        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2007-05-21T09:40:30</dcterms:modified>
+        <dcterms:format>
+          <rdf:Description rdf:nodeID="N98e9423051ad4e06968fd1325c344306">
+            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">application/zip</rdf:value>
+            <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
+          </rdf:Description>
+        </dcterms:format>
+        <dcterms:format>
+          <rdf:Description rdf:nodeID="N2d82dc93110b445b955301eab77ce710">
+            <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
+            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">text/plain; charset=iso-8859-1</rdf:value>
+          </rdf:Description>
+        </dcterms:format>
+      </pgterms:file>
+    </dcterms:hasFormat>
+    <dcterms:subject>
+      <rdf:Description rdf:nodeID="Nf90f53d65b7642ffb00451eabf3b76ae">
+        <dcam:memberOf rdf:resource="http://purl.org/dc/terms/LCC"/>
+        <rdf:value>PQ</rdf:value>
+      </rdf:Description>
+    </dcterms:subject>
+    <dcterms:hasFormat>
+      <pgterms:file rdf:about="http://www.gutenberg.org/ebooks/21545.epub.images">
+        <dcterms:format>
+          <rdf:Description rdf:nodeID="N5c84c96f8aa14f78b256645543519533">
+            <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
+            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">application/epub+zip</rdf:value>
+          </rdf:Description>
+        </dcterms:format>
+        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">21373</dcterms:extent>
+        <dcterms:isFormatOf rdf:resource="ebooks/21545"/>
+        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2018-09-11T01:40:09.775115</dcterms:modified>
+      </pgterms:file>
+    </dcterms:hasFormat>
+    <pgterms:bookshelf>
+      <rdf:Description rdf:nodeID="Nef74b371d66749aaaa1d55ee399d5fb0">
+        <dcam:memberOf rdf:resource="2009/pgterms/Bookshelf"/>
+        <rdf:value>PT Poesia</rdf:value>
+      </rdf:Description>
+    </pgterms:bookshelf>
+    <dcterms:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2007-05-21</dcterms:issued>
+    <pgterms:downloads rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">8</pgterms:downloads>
+    <dcterms:hasFormat>
+      <pgterms:file rdf:about="http://www.gutenberg.org/ebooks/21545.txt.utf-8">
+        <dcterms:isFormatOf rdf:resource="ebooks/21545"/>
+        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">45909</dcterms:extent>
+        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2018-09-11T01:40:09.684149</dcterms:modified>
+        <dcterms:format>
+          <rdf:Description rdf:nodeID="N90f1eb367f514394b3c17d254dd0caa3">
+            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">text/plain</rdf:value>
+            <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
+          </rdf:Description>
+        </dcterms:format>
+      </pgterms:file>
+    </dcterms:hasFormat>
+    <dcterms:publisher>Project Gutenberg</dcterms:publisher>
     <dcterms:hasFormat>
       <pgterms:file rdf:about="http://www.gutenberg.org/files/21545/21545-h/21545-h.htm">
-        <dcterms:isFormatOf rdf:resource="ebooks/21545"/>
         <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">46319</dcterms:extent>
+        <dcterms:isFormatOf rdf:resource="ebooks/21545"/>
         <dcterms:format>
-          <rdf:Description rdf:nodeID="N966109987c2f4600a99dda6e661a7bd2">
-            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">text/html; charset=iso-8859-1</rdf:value>
+          <rdf:Description rdf:nodeID="Nc35195e54c224ecbbe3c1e9cf5397ca5">
             <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
+            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">text/html; charset=iso-8859-1</rdf:value>
           </rdf:Description>
         </dcterms:format>
         <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2007-05-21T09:40:30</dcterms:modified>
       </pgterms:file>
     </dcterms:hasFormat>
     <dcterms:hasFormat>
-      <pgterms:file rdf:about="http://www.gutenberg.org/files/21545/21545-8.txt">
-        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">45331</dcterms:extent>
+      <pgterms:file rdf:about="http://www.gutenberg.org/ebooks/21545.kindle.images">
         <dcterms:isFormatOf rdf:resource="ebooks/21545"/>
-        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2007-05-21T09:40:26</dcterms:modified>
+        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">101785</dcterms:extent>
+        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2018-09-11T01:40:10.005114</dcterms:modified>
         <dcterms:format>
-          <rdf:Description rdf:nodeID="Nd056dd74714b4f468beccb3f04ea538e">
-            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">text/plain; charset=iso-8859-1</rdf:value>
+          <rdf:Description rdf:nodeID="Nb3ba6d5a0abc4fb7a74d9a4b2f2ba070">
+            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">application/x-mobipocket-ebook</rdf:value>
             <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
           </rdf:Description>
         </dcterms:format>
       </pgterms:file>
     </dcterms:hasFormat>
-    <dcterms:hasFormat>
-      <pgterms:file rdf:about="http://www.gutenberg.org/ebooks/21545.qioo">
-        <dcterms:format>
-          <rdf:Description rdf:nodeID="N6748e55a94e14ec6aceaee415de49499">
-            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">application/x-qioo-ebook</rdf:value>
-            <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
-          </rdf:Description>
-        </dcterms:format>
-        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2010-02-19T02:56:55.529724</dcterms:modified>
-        <dcterms:isFormatOf rdf:resource="ebooks/21545"/>
-        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">80223</dcterms:extent>
-      </pgterms:file>
-    </dcterms:hasFormat>
-    <dcterms:description>Quarta Parte</dcterms:description>
+    <pgterms:marc260>Londres:&#13;
+1815</pgterms:marc260>
   </pgterms:ebook>
   <cc:Work rdf:about="">
-    <cc:license rdf:resource="http://www.gnu.org/licenses/gpl.html"/>
+    <cc:license rdf:resource="https://creativecommons.org/publicdomain/zero/1.0/"/>
+    <rdfs:comment>Archives containing the RDF files for *all* our books can be downloaded at
+            http://www.gutenberg.org/wiki/Gutenberg:Feeds#The_Complete_Project_Gutenberg_Catalog</rdfs:comment>
   </cc:Work>
   <rdf:Description rdf:about="http://pt.wikipedia.org/wiki/Gon%C3%A7alo_Anes">
     <dcterms:description>pt.wikipedia</dcterms:description>
